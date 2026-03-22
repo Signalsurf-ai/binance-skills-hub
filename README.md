@@ -26,13 +26,58 @@ Before installing Binance Skills Hub, ensure you have the following prerequisite
 
 * **Node.js** (version 22 or higher)
 
-### Install Skills Hub
+### Install with Claude Code
+
+```bash
+claude install github:binance/binance-skills-hub
+```
+
+Once installed, Claude Code auto-discovers all 24 skills. Ask Claude to query tokens, check security audits, track wallets, execute trades, and more — all through natural language.
+
+### Install with npx
 
 Run the following command to add Binance Skills Hub to your project:
 
 ```bash
 npx skills add https://github.com/binance/binance-skills-hub
 ```
+
+---
+
+## Available Skills
+
+### Web3 (On-chain / DeFi)
+
+| Skill | Description |
+|-------|-------------|
+| `query-token-info` | Search tokens, get metadata, real-time market data, and K-Line charts |
+| `query-token-audit` | Token security audit — detect honeypots, rug pulls, scams |
+| `query-address-info` | Query wallet token balances across chains |
+| `trading-signal` | Smart money trading signals (buy/sell with trigger prices) |
+| `crypto-market-rank` | Social hype, trending tokens, smart money inflow rankings |
+| `meme-rush` | Real-time meme token launches, migration tracking, holder analysis |
+
+### Binance CEX Trading
+
+| Skill | Description |
+|-------|-------------|
+| `spot` | Spot trading — orders, order book, klines, tickers |
+| `derivatives-trading-usds-futures` | USDS-margined futures trading |
+| `derivatives-trading-coin-futures` | Coin-margined futures trading |
+| `derivatives-trading-options` | Options trading |
+| `derivatives-trading-portfolio-margin` | Portfolio margin trading |
+| `derivatives-trading-portfolio-margin-pro` | Portfolio margin pro trading |
+| `margin-trading` | Margin trading — borrow, repay, orders |
+| `algo` | Algorithmic trading (TWAP, VP) |
+| `alpha` | Binance Alpha token discovery |
+| `assets` | Asset management — deposits, withdrawals, balances |
+| `convert` | Convert between assets |
+| `fiat` | Fiat on/off ramp |
+| `simple-earn` | Earn products — flexible & locked savings |
+| `sub-account` | Sub-account management |
+| `vip-loan` | VIP loan services |
+| `onchain-pay` | On-chain payment processing |
+| `square-post` | Binance Square social posts |
 
 ---
 
