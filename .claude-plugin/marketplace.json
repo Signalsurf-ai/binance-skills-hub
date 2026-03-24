@@ -3,16 +3,11 @@
   "owner": {
     "name": "Signalsurf"
   },
-  "metadata": {
-    "description": "Open skills marketplace for crypto — native access to Binance CEX trading and Web3 DeFi via AI agents",
-    "version": "1.0.0"
-  },
   "plugins": [
     {
       "name": "binance-web3-defi",
-      "description": "On-chain DeFi skills — token search, security audits, wallet queries, smart money signals, market rankings, and meme token tracking",
       "source": "./",
-      "strict": false,
+      "description": "On-chain DeFi skills — token search, security audits, wallet queries, smart money signals, market rankings, and meme token tracking",
       "skills": [
         "./skills/binance-web3/crypto-market-rank",
         "./skills/binance-web3/meme-rush",
@@ -25,9 +20,8 @@
     },
     {
       "name": "binance-cex-trading",
-      "description": "Binance CEX trading skills — spot, margin, futures, options, portfolio margin, algo trading, earn, convert, fiat, assets, sub-accounts, VIP loans, on-chain pay, and Square social posts",
       "source": "./",
-      "strict": false,
+      "description": "Binance CEX trading skills — spot, margin, futures, options, portfolio margin, algo trading, earn, convert, fiat, assets, sub-accounts, VIP loans, on-chain pay, and Square social posts",
       "skills": [
         "./skills/binance/algo",
         "./skills/binance/alpha",
