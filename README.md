@@ -29,7 +29,7 @@ Before installing Binance Skills Hub, ensure you have the following prerequisite
 ### Via Plugin Marketplace (recommended)
 
 ```bash
-/plugin marketplace add binance/binance-skills-hub
+/plugin marketplace add signalsurf-ai/binance-skills-hub
 /plugin install binance-web3-defi@binance-skills-hub
 /plugin install binance-cex-trading@binance-skills-hub
 ```
