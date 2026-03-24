@@ -11,7 +11,7 @@
     {
       "name": "binance-web3-defi",
       "description": "On-chain DeFi skills — token search, security audits, wallet queries, smart money signals, market rankings, and meme token tracking",
-      "source": "./skills/binance-web3",
+      "source": "./",
       "strict": false,
       "skills": [
         "./skills/binance-web3/crypto-market-rank",
@@ -26,7 +26,7 @@
     {
       "name": "binance-cex-trading",
       "description": "Binance CEX trading skills — spot, margin, futures, options, portfolio margin, algo trading, earn, convert, fiat, assets, sub-accounts, VIP loans, on-chain pay, and Square social posts",
-      "source": "./skills/binance",
+      "source": "./",
       "strict": false,
       "skills": [
         "./skills/binance/algo",
